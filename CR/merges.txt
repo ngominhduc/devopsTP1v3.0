@@ -1,4 +1,0 @@
-etap9: 
-Pour faire le merge: 
-git checkout master
-git merge fork1
