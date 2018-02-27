@@ -1,0 +1,8 @@
+je fais
+git log
+pour trouver les commitID et puis je fais 
+git reset --hard d36ae7e7386ebbe6a403932e4d726022428d096c
+"d36ae7e7386ebbe6a403932e4d726022428d096c" est le commitid avant la derniere commit qui n'a pas la pharse ”Je ne sais pas comment resoudre les conflits”
+
+enfin, je fais:
+git push -f
