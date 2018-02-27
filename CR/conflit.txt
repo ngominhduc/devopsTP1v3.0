@@ -16,4 +16,10 @@ git checkout master
 echo "line 2 in master branch, this will lead to conflict issue" >> file_in_master 
 git add file_in_master 
 git commit -m "add line 2 in master branch, this will lead to conflict issue"
-git merge conflict
+git merge fork1
+
+On a message: 
+Auto-merging file_in_master
+CONFLICT (add/add): Merge conflict in file_in_master
+Automatic merge failed; fix conflicts and then commit the result.
+
