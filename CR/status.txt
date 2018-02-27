@@ -1,0 +1,39 @@
+Etape 10:
+1. D'abord, je cree un fichier "etape10.txt" avec le contenu "modification 1"
+Et quand je fais git status, il y a une notification. C'est a dire ce fichier est dans la liste "Untracked files", ce fichier n'existe pas avant.
+
+On branch fork2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2. Puis, je fais " git add etape10.txt " 
+Et quand je fais git status, il y a une notification qui dit que maintenant, ce fichier est "tracked" et "staged". Il est dans la list "Changes to be committed"
+
+On branch fork2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   etape10.txt
+
+
+3. Ensuite, je modifie le fichier "etape10.txt" en ajoutant le contenu "modification 2"
+Et quand je fais git status, il y a une notification qui dit que un "tracked" fichier a été modifié dans le répertoire de travail mais n'a pas été "staged"
+ 
+On branch fork2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   etape10.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   etape10.txt
+
+
+4. Oui, un fichier peut apparaitre dans au moins 2 categories a la fois. 
