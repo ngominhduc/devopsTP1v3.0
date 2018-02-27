@@ -1,0 +1,19 @@
+Etape 11:
+Pour faire rebase: 
+git checkout fork2
+git rebase master 
+git checkout master
+git merge fork2
+
+- Quand je fais "git reabase master": 
+First, rewinding head to replay your work on top of it...
+- et quand je fais "git merge fork2":
+Updating 6a7c80b..bdaeb52
+
+Fast-forward: Pas besoin d’un nouveau commit, la branche master peu simplement etre deplacee vers le dernier commit de la branche
+
+
+
+Etape 12:
+Pour faire la suppression sur le branch fork2:
+git branch -d fork2

@@ -1,0 +1,2 @@
+touch pdf.gitignore
+Et dans le fichier pdf.gitignore, on ajoute "*.pdf"
