@@ -12,8 +12,6 @@ Updating 6a7c80b..bdaeb52
 
 Fast-forward: Pas besoin d’un nouveau commit, la branche master peu simplement etre deplacee vers le dernier commit de la branche
 
-
-
 Etape 12:
 Pour faire la suppression sur le branch fork2:
-git branch -d fork2
+git branch -d fork2 

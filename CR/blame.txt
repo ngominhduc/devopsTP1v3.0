@@ -1,0 +1,11 @@
+git blame rebase.txt:
+Ce commend donne les informations sur chaque ligne du fichier comme ca:
+0fad3bba (ngominhduc 2018-02-17 11:32:42 +0100 17) git branch -d fork2
+
+Pour consulter les changements du fichier, ca peut savoir qui a modifie ce fichier. 
+
+Si je modifie rebase.txt:
+00000000 (<not.committed.yet>             2018-02-17 12:45:33 +0100 17) git branch -d fork2 asdadasd
+
+Option -e donne le lien vers mon deposite 
+0fad3bba (<https://github.com/ngominhduc> 2018-02-17 11:32:42 +0100 16) 
