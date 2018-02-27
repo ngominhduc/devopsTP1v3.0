@@ -1,2 +1,12 @@
-touch pdf.gitignore
-Et dans le fichier pdf.gitignore, on ajoute "*.pdf"
+touch .gitignore
+Et dans le fichier .gitignore, on ajoute "*.pdf".
+Si les fichiers que je voudrais ignore sont deja commit, je dois ajouter:
+git rm -r --cached .
+git add .
+git commit -m "..."
+
+Et quand je fais: git add tp1.pdf 
+The following paths are ignored by one of your .gitignore files:
+tp1.pdf
+Use -f if you really want to add them.
+
