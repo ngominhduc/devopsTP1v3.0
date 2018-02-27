@@ -1,0 +1,19 @@
+Etape14:
+Pour faire un conflit on fait
+
+git checkout master
+touch file_in_master
+echo "line 1 in master" >> file_in_master 
+git add file_in_master 
+git commit -m "init and add first line in master"
+
+git checkout fork1
+git commit -m "Add line 2 in conflict branch" >> file_in_master 
+git add file_in_master
+git commit -m "Add line 2 in conflict branch"
+
+git checkout master
+echo "line 2 in master branch, this will lead to conflict issue" >> file_in_master 
+git add file_in_master 
+git commit -m "add line 2 in master branch, this will lead to conflict issue"
+git merge conflict
