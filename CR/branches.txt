@@ -1,0 +1,10 @@
+
+1.Pour creer nouvelle branche: je utile 
+git  check out -b fork1 ()
+ou git branch fork1 
+git remote add fork1 https://github.com/ngominhduc/devopsTP1v2.0
+git push origin fork1
+2. Pout connaitre la list des branches: git branch
+3. La branche que je travaille a un etoile "*" avant.
+4. Pour changer de branche: git checkout [nom du branch]
+5. Quand je passe de la branche fork1 a la branche master, je ne vois pas encore le repetoire branchtest
