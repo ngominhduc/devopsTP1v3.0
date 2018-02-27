@@ -23,3 +23,10 @@ Auto-merging file_in_master
 CONFLICT (add/add): Merge conflict in file_in_master
 Automatic merge failed; fix conflicts and then commit the result.
 
+
+Pour resoudre le conflict je vais au fichier file_in_master et le change: 
+"line 1 in master
+line 2 in master branch, this will lead to conflict issue"
+C'est a dire je sauvegarde les modifies des 2 branch
+
+
