@@ -1,5 +1,6 @@
 touch .gitignore
-Et dans le fichier .gitignore, on ajoute "*.pdf".
+echo "*.pdf" >> .gitignore 
+
 Si les fichiers que je voudrais ignore sont deja commit, je dois ajouter:
 git rm -r --cached .
 git add .
