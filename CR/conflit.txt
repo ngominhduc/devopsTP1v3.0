@@ -30,3 +30,4 @@ line 2 in master branch, this will lead to conflict issue"
 C'est a dire je sauvegarde les modifies des 2 branch
 
 
+git stash sauvegarde les changements qui n'a pas encore commit, mais on voudrait passer vers un autre branch

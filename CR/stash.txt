@@ -1,0 +1,12 @@
+1.Je ne peux pas passer vers fork1. Il y a une erreur 
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+2. Pour passer vers fork1. 
+git stash save 
+3.Le contenu n'a pas change.
+4.Pour voir la list 
+git stash list
+Et pour plus detail sur chaque stash
+git stash show stash@{0}
+5. Pour restorer ma modification
+git stash apply stash@{0}
